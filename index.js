@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-
-app.listen(() => {
-  console.log("fire");
+const port = 7000;
+app.listen(port, () => {
+  console.log(port, "fire");
 });
